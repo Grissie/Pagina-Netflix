@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous"
+      />
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img  src="./logo.png" width="150px" height="auto" alt="">
+            </div>
+            <div class="login">
+              <a href="./boton_login/login.html">
+                <button class="boton">Iniciar sesión</button>
+              </a>
+            </div>
+        </header>
+        <main class="container-main">
+            <div class="item">
+                <h1>Películas y series 
+                    <br>
+                    ilimitadas y mucho más.</h1>
+            </div>
+            <div class="item">
+                <h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
+            </div>
+            <div class="item">
+                <p>
+                    ¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.
+                </p>
+            </div>
+            <div class="input-group mb-3 w-50" >
+                <input type="text" class="form-control pt-4 pb-4" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-danger " style="background-color: red;" type="button" id="button-addon2">COMIENZA YA ></button>
+                </div>
+              </div>
+        </main>
+
+        <section>
+            <article class="our-story-card animation-card-watchOnTv">
+                <div class="animation-card-container">
+                    <div class="our-story-card-text">
+                        <h1>Disfruta en tu TV</h1>
+                        <h3>Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h3>
+                    </div>
+                    <div class="our-story-card-img-container">
+                       <div class="our-story-card-animation-container">
+                        <div class="our-story-card-animation">
+                                <video  autoplay playsinline muted loop class="our-story-card-video">
+                                <source type="video/mp4" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v">
+                                </video>
+                        </div>
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="">
+                       </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <div class="d-flex flex-column bd-highlight mb-3 bg-dark principal">
+            <div class="p-2 bd-highlight text-white ">
+                <div class="container mx-auto">
+                    <div class="row d-flex align-items-center fila">
+                      <div class="col-sm uno">
+                        <img class="img-2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="">
+                      </div>
+                      <div class="col-sm  texto">
+                        <p class="h1">Download your shows to watch offline.</p>
+                        <p class="h4">Save your favorites easily and always have something to watch.</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+
+        <section class="section3">
+            <ul class="list-unstyled">
+                <li class="media border-0 ml-4 mr-4 mb-4">
+                    <div class="media-body p-5" >
+                        <h2>Disfruta donde quieras.</h2>
+                        <p>Películas y series ilimitadas en tu teléfono, tablet, computadora y TV sin costo extra.</p>
+                    </div>
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" class="text-center">
+                </li>
+            </ul>
+        </section>
+
+        <div class="section4">
+            <section class="preguntas-frecuentes">
+                <h1>Preguntas Frecuentes</h1>
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              ¿Qué es Netflix?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Netflix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet.
+                            Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!              </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              ¿Cuánto cuesta Netflix?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Disfruta Netflix en tu smartphone, tablet, smart TV, laptop o dispositivo de streaming, todo por una tarifa plana mensual. Planes desde $139 hasta $266 al mes. Sin costos adicionales ni contratos.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              ¿Dónde puedo ver Netflix?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Ve donde quieras, cuando quieras y en todos los dispositivos que quieras. Inicia sesión en tu cuenta de Netflix para ver contenido al instante a través de netflix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Netflix, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos.
+                            Además, puedes descargar tus series favoritas con iOS, Android o la app para Windows 10. Con la función de descarga, puedes ver donde vayas y sin conexión a internet. Lleva Netflix contigo adonde sea.              </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading4">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                              ¿Cómo cancelo?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Netflix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <div class="card-header" id="heading5">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                              ¿Qué puedo ver en Netflix?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionExample">
+                          <div class="card-body">
+                            Netflix tiene un amplio catálogo de películas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h5>¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</h5>
+                    <div class="email">
+                      <input type="email" />
+                      <button> COMIENZA YA > </button>
+                    </div>
+              </section>
+        </div>
+        
+    </body>
+</html>
